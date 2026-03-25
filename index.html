@@ -139,6 +139,17 @@
   }
   .nav-cta:hover { opacity: 0.85; color: #000 !important; }
 
+  .nav-easylearn {
+    background: linear-gradient(135deg, var(--accent2), var(--accent));
+    color: #fff !important;
+    padding: 10px 22px;
+    border-radius: 6px;
+    font-weight: 600 !important;
+    transition: opacity 0.2s, transform 0.2s !important;
+    letter-spacing: 0.01em;
+  }
+  .nav-easylearn:hover { opacity: 0.88; transform: translateY(-1px); color: #fff !important; }
+
   /* ── HERO ── */
   .hero {
     min-height: 100vh;
@@ -1163,6 +1174,7 @@
     <li><a href="#our-work" onclick="closeMenu()">Our Work</a></li>
     <li><a href="#about" onclick="closeMenu()">About</a></li>
     <li><a href="#contact" class="nav-cta" onclick="closeMenu()">Enroll Now</a></li>
+    <li><a href="https://easy-learn-using-llm-groq.vercel.app/" target="_blank" rel="noopener" class="nav-easylearn" onclick="closeMenu()">✦ EasyLearn</a></li>
   </ul>
   <button class="hamburger" id="hamburger" onclick="toggleMenu()" aria-label="Toggle menu">
     <span></span><span></span><span></span>
@@ -1182,7 +1194,7 @@
       Learn. Build.
       <span class="line2">Lead the Future.</span>
     </h1>
-    <p>NewTech is Nagaon's leading computer education institute — offering certified computer courses, cutting-edge web & mobile development services, all under one roof in the heart of Assam.</p>
+    <p>NewTech offers certified computer education, cutting-edge web & mobile development services — all under one roof.</p>
     <div class="hero-actions">
       <a href="#courses" class="btn-primary">Explore Courses →</a>
       <a href="#services" class="btn-secondary">Our Services</a>
@@ -1207,9 +1219,9 @@
 <!-- COURSES -->
 <section class="courses" id="courses">
   <div class="section-header reveal">
-    <div class="section-tag">Computer Education in Nagaon, Assam</div>
+    <div class="section-tag">Education Programs</div>
     <h2 class="section-heading">Industry-Ready Courses<br>with Certification</h2>
-    <p class="section-sub">Practical, hands-on computer education programs in Nagaon designed to launch your tech career from day one.</p>
+    <p class="section-sub">Practical, hands-on training programs designed to launch your tech career from day one.</p>
   </div>
   <div class="courses-grid">
 
@@ -1384,7 +1396,6 @@
   <div class="section-header reveal" style="text-align:center; max-width:600px; margin:0 auto 56px;">
     <div class="section-tag">Why NewTech</div>
     <h2 class="section-heading">The NewTech Advantage</h2>
-    <p class="section-sub" style="margin-top:14px;color:var(--muted);font-size:1rem;font-weight:300;">Nagaon's trusted computer education institute since 2022.</p>
   </div>
   <div class="why-grid">
     <div class="why-item reveal">
@@ -1603,7 +1614,7 @@
 <footer>
   <div class="footer-brand">
     <div class="logo">New<span>Tech</span></div>
-    <p style="color:var(--muted);font-size:0.85rem;margin-top:8px;">Computer Education & Digital Solutions<br>Nagaon, Assam, India</p>
+    <p></p>
   </div>
   <ul class="footer-links">
     <li><a href="#courses">Courses</a></li>
