@@ -1,0 +1,18 @@
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://newtech-nagaon.vercel.app/sitemap.xml
+
+# Block unnecessary crawling of query strings
+Disallow: /*?*
+
+# Common crawlers welcome
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
